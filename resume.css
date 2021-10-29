@@ -20,6 +20,10 @@ body {
   margin: 10px;
   right: 10px;
 }
+.section-head{
+  color: #66cc99;
+  font-size: larger;
+}
 
 a {
   color: #66cc99;
@@ -107,6 +111,17 @@ a {
   display: table;
   position: relative;
   vertical-align: middle;
+}
+.section-hobby{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  float: left;
+  margin-top: 40px;
+  color: black;
+  font-size: small;
+  
 }
 .profile .picture-resume span {
   display: table-cell;
